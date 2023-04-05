@@ -12,7 +12,6 @@ npm create astro@latest -- --template basics
 
 ![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
 
-
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
@@ -59,10 +58,12 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 ### Setup ESLint
 
 ref:
-* https://docs.astro.build/ja/editor-setup/#eslint
-* https://github.com/ota-meshi/eslint-plugin-astro
+
+- https://docs.astro.build/ja/editor-setup/#eslint
+- https://github.com/ota-meshi/eslint-plugin-astro
 
 1. Install ESLint and plugins.
+
 ```bash
 $ pnpm install -D eslint eslint-plugin-astro @typescript-eslint/parser eslint-plugin-jsx-a11y
 ```
@@ -72,9 +73,11 @@ $ pnpm install -D eslint eslint-plugin-astro @typescript-eslint/parser eslint-pl
 ### Setup Prettier
 
 ref:
-* https://docs.astro.build/ja/editor-setup/#prettier
+
+- https://docs.astro.build/ja/editor-setup/#prettier
 
 1. Install Prettier and plugins.
+
 ```bash
 $ pnpm install -D prettier prettier-plugin-astro
 ```
