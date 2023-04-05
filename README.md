@@ -68,3 +68,13 @@ $ pnpm install -D eslint eslint-plugin-astro @typescript-eslint/parser eslint-pl
 ```
 
 2. Add sample config.
+
+### Setup Prettier
+
+ref:
+* https://docs.astro.build/ja/editor-setup/#prettier
+
+1. Install Prettier and plugins.
+```bash
+$ pnpm install -D prettier prettier-plugin-astro
+```
