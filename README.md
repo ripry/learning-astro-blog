@@ -53,3 +53,18 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## 🔧 Addtional Setup
+
+### Setup ESLint
+
+ref:
+* https://docs.astro.build/ja/editor-setup/#eslint
+* https://github.com/ota-meshi/eslint-plugin-astro
+
+1. Install ESLint and plugins.
+```bash
+$ pnpm install -D eslint eslint-plugin-astro @typescript-eslint/parser eslint-plugin-jsx-a11y
+```
+
+2. Add sample config.

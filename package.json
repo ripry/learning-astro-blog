@@ -7,9 +7,17 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint:eslint": "eslint",
+    "format:eslint": "eslint --fix"
   },
   "dependencies": {
     "astro": "^2.1.9"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "eslint-plugin-astro": "^0.26.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1"
   }
 }
