@@ -11,5 +11,15 @@
     "astro", // Enable .astro
     "typescript", // Enable .ts
     "typescriptreact" // Enable .tsx
+  ],
+  "cSpell.words": ["Astro"],
+  "cSpell.ignorePaths": [
+    ".pnpm-store",
+    "pnpm-lock.yaml",
+    "node_modules",
+    "vscode-extension",
+    ".git/objects",
+    ".vscode",
+    ".devcontainer"
   ]
 }
