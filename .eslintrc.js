@@ -1,4 +1,7 @@
-module.exports = {
+// @ts-check
+
+/** @type {import("@typescript-eslint/parser").ParserOptions} */
+const config = {
   // ...
   extends: [
     // ...
@@ -25,3 +28,5 @@ module.exports = {
     // ...
   ],
 };
+
+export default config;
