@@ -18,9 +18,10 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "dbaeumer.vscode-eslint",
         "astro-build.astro-vscode",
+        "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
+        "davidanson.vscode-markdownlint",
         "streetsidesoftware.code-spell-checker"
       ]
     }
